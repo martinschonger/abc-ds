@@ -1,0 +1,14 @@
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-05-28.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-06-29.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-07-13.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-08-13.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-09-39.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-10-27.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-11-19.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-12-04.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-12-55.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-13-40.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-14-30.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-15-26.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-16-50.csv
+datasets/robot_recordings/two_obstacle/reference_trajectories/Recording_2023-09-08_17-17-36.csv

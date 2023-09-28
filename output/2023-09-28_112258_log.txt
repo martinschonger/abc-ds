@@ -1,0 +1,332 @@
+[Warning: The Data and data fields of LASA datasets may not be aligned.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RefData/loadLasa', 'C:\Users\martin\dev\ds\RefData.m', 96)" style="font-weight:bold">RefData/loadLasa</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\RefData.m',96,0)">line 96</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_experiment', 'C:\Users\martin\dev\ds\run_experiment.m', 22)" style="font-weight:bold">run_experiment</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\run_experiment.m',22,0)">line 22</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main2', 'C:\Users\martin\dev\ds\main2.m', 175)" style="font-weight:bold">main2</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\main2.m',175,0)">line 175</a>)] 
+-------------------------------------------------------------------------
+YALMIP SOS module started...
+-------------------------------------------------------------------------
+Detected 4 parametric variables and 2 independent variables.
+Detected 0 linear inequalities, 0 equality constraints and 0 LMIs.
+Using image representation (options.sos.model=2). Nonlinear parameterization found
+Initially 3 monomials in R^2
+Newton polytope (0 LPs).........Keeping 2 monomials (0sec)
+Finding symmetries..............Found 1 symmetry  (0sec)
+Partitioning using symmetry.....2x2(1) 
+ 
+
+MOSEK Version 10.0.46 (Build date: 2023-5-23 19:41:05)
+Copyright (c) MOSEK ApS, Denmark WWW: mosek.com
+Platform: Windows/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : minimize        
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 5               
+  Affine conic cons.     : 0               
+  Disjunctive cons.      : 0               
+  Cones                  : 1               
+  Scalar variables       : 6               
+  Matrix variables       : 1               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.00    
+Problem
+  Name                   :                 
+  Objective sense        : minimize        
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 5               
+  Affine conic cons.     : 0               
+  Disjunctive cons.      : 0               
+  Cones                  : 1               
+  Scalar variables       : 6               
+  Matrix variables       : 1               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 12              
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 5
+Optimizer  - Cones                  : 2
+Optimizer  - Scalar variables       : 9                 conic                  : 9               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 15                after factor           : 15              
+Factor     - dense dim.             : 0                 flops                  : 1.43e+02        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   7.3e-01  1.2e+00  1.8e+00  0.00e+00   8.194248199e-01   0.000000000e+00   1.0e+00  0.00  
+1   5.8e-02  9.4e-02  1.9e-02  3.64e-01   7.866324419e-02   -7.359510114e-02  8.0e-02  0.02  
+2   1.2e-02  1.9e-02  1.8e-03  1.11e+00   -2.774806911e-02  -5.629478959e-02  1.6e-02  0.02  
+3   2.6e-03  4.2e-03  2.8e-04  1.15e+00   -3.225694073e-02  -3.685007340e-02  3.6e-03  0.02  
+4   4.5e-04  7.3e-04  2.0e-05  1.05e+00   -3.581398035e-02  -3.655858877e-02  6.2e-04  0.02  
+5   8.7e-05  1.4e-04  1.8e-06  1.02e+00   -3.625089663e-02  -3.638247138e-02  1.2e-04  0.02  
+6   1.9e-05  3.1e-05  2.0e-07  1.01e+00   -3.632419364e-02  -3.635080633e-02  2.6e-05  0.02  
+7   2.5e-06  4.0e-06  9.8e-09  1.00e+00   -3.633220369e-02  -3.633554085e-02  3.4e-06  0.02  
+8   1.1e-07  1.8e-07  9.5e-11  1.00e+00   -3.633375038e-02  -3.633389393e-02  1.5e-07  0.02  
+9   2.1e-10  3.4e-10  7.9e-15  1.00e+00   -3.633379160e-02  -3.633379187e-02  2.9e-10  0.02  
+Optimizer terminated. Time: 0.02    
+
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: -3.6333791602e-02   nrm: 1e+00    Viol.  con: 2e-10    var: 0e+00    barvar: 0e+00    cones: 0e+00  
+  Dual.    obj: -3.6333791874e-02   nrm: 1e+00    Viol.  con: 0e+00    var: 3e-10    barvar: 2e-10    cones: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 0.02    
+    Interior-point          - iterations : 9         time: 0.02    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+
+ans =
+
+    'Successfully solved (MOSEK-SDP)'
+
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   ID|                    Constraint|   Primal residual|   Dual residual|         Tag|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   #1|   SOS constraint (polynomial)|        1.1102e-16|             NaN|   -Vdot < 0|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| A primal-dual optimal solution would show non-negative residuals.                   |
+| In practice, many solvers converge to slightly infeasible                           |
+| solutions, which may cause some residuals to be negative.                           |
+| It is up to the user to judge the importance and impact of                          |
+| slightly negative residuals (i.e. infeasibilities)                                  |
+| https://yalmip.github.io/command/check/                                             |
+| https://yalmip.github.io/faq/solutionviolated/                                      |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+Total error: 0.04
+Computation Time: 0.00
+f_fh(xi) = [- 0.049470949866*xi1 - 0.81606464086*xi2]
+           [0.674888626426*xi1 - 0.102247491567*xi2]
+V_fh(xi) = [xi1^2 + xi2^2]
+dVdx_fh(xi) = [2.0*xi1]
+              [2.0*xi2]
+B_fh(xi) = [0.0]
+dBdx_fh(xi) = [0]
+              [0]
+[DEBUG] Validation of SOS constraints:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Idx| Min eigval of Q| Primal residual|  Relative fact.|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   1|     6.03192e-08|     1.11022e-16|     1.84058e-09|  All eigvals of Q: [6.03191705611517e-08;0.301436822545894]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[DEBUG_END]
+-------------------------------------------------------------------------
+YALMIP SOS module started...
+-------------------------------------------------------------------------
+Detected 68 parametric variables and 2 independent variables.
+Detected 0 linear inequalities, 0 equality constraints and 0 LMIs.
+Using image representation (options.sos.model=2). Nonlinear parameterization found
++ Solver chosen : GUROBI
++ Processing objective function
++ Processing constraints
+Initially 6 monomials in R^2
+Newton polytope (0 LPs).........Keeping 5 monomials (0sec)
+Finding symmetries..............Found no symmetries (0sec)
+Initially 21 monomials in R^2
++ Calling GUROBI
+Newton polytope (1 LPs).........Keeping 14 monomials (0sec)
+Finding symmetries..............Found no symmetries (0sec)
+ 
++ Solver chosen : PENBMI-PENOPT
++ Processing objective function
++ Processing constraints
++ Calling PENBMI-PENOPT
+
+vars       :   134
+constr     :     4
+mconstr    :    26
+mmaxsize   :    14
+
+********************************************* 
+PENBMI 2.1
+------------
+
+*********************************************
+
+ License will expire in 34 days.
+*********************************************
+
+
+
+********************************************************************************
+* it |     obj      |     opt      |     feas     |   <U,A(x)>   | Nwt  |  LS  *
+********************************************************************************
+|   0|  -1.4353e-01 |   0.0000e+00 |   5.1701e-04 |   8.3808e-03 |    0 |    0 |
+|   1|   5.1747e-02 |   6.3572e-03 |   9.6458e-05 |   8.6022e-01 |   26 |   34 |
+|   2|  -9.6198e-02 |   5.1975e-03 |   4.3705e-06 |   1.5305e-01 |   30 |   43 |
+|   3|  -1.4150e-01 |   2.0036e-03 |   4.3750e-06 |   3.2053e-02 |   36 |   52 |
+|   4|  -1.5711e-01 |   5.6073e-03 |   2.4063e-06 |   7.6654e-03 |   48 |   72 |
+|   5|  -1.6243e-01 |   7.6262e-03 |   2.0044e-06 |   2.0806e-03 |   66 |   97 |
+|   6|  -1.6379e-01 |   4.1628e-03 |   4.7266e-07 |   6.2668e-04 |   72 |  106 |
+|   7|  -1.6524e-01 |   7.4549e-03 |   3.6559e-07 |   2.0184e-04 |  101 |  159 |
+|   8|  -1.6604e-01 |   9.5005e-03 |   2.7930e-07 |   6.7563e-05 |  139 |  234 |
+|   9|  -1.6640e-01 |   9.3782e-03 |   1.1688e-07 |   2.3856e-05 |  177 |  309 |
+|  10|  -1.6691e-01 |   1.7038e-02 |   9.8313e-08 |   7.9190e-06 |  277 |  514 |
+|  11|  -1.6739e-01 |   2.2774e+00 |   7.7112e-06 |   7.8456e-08 |  377 |  698 |
+|  12|  -1.6756e-01 |   7.6487e-03 |   3.8470e-06 |   1.6720e-06 |  426 |  787 |
+|  13|  -1.6798e-01 |   6.9802e-02 |   1.9417e-06 |   1.0278e-06 |  526 |  971 |
+|  14|  -1.6816e-01 |   8.9361e-03 |   9.6572e-07 |   6.0839e-07 |  585 | 1085 |
+|  15|  -1.6818e-01 |   7.9263e-03 |   5.6412e-07 |   3.4683e-07 |  595 | 1104 |
+|  16|  -1.6834e-01 |   9.9857e-03 |   2.4836e-07 |   1.9419e-07 |  648 | 1209 |
+|  17|  -1.6837e-01 |   8.7189e-03 |   1.7875e-07 |   1.0426e-07 |  659 | 1235 |
+|  18|  -1.6840e-01 |   8.9105e-03 |   9.8313e-08 |   5.5141e-08 |  672 | 1265 |
+|  19|  -1.6846e-01 |   7.1868e-03 |   9.8313e-08 |   2.9413e-08 |  697 | 1316 |
+|  20|  -1.6846e-01 |   8.2436e-03 |   3.0250e-08 |   1.4642e-08 |  699 | 1322 |
+|  21|  -1.6869e-01 |   9.1569e-01 |   3.6781e-06 |   6.4854e-07 |  799 | 1531 |
+|  22|  -1.6889e-01 |   5.3652e-02 |   3.5271e-06 |   2.7954e-08 |  899 | 1743 |
+|  23|  -1.6912e-01 |   2.8598e+00 |   9.6618e-06 |   4.7130e-06 |  999 | 1970 |
+|  24|  -1.6930e-01 |   6.6821e-03 |   5.0594e-06 |   1.7297e-08 | 1099 | 2202 |
+|  25|  -1.6950e-01 |   2.0202e+00 |   4.8254e-06 |   1.5900e-06 | 1199 | 2430 |
+|  26|  -1.6966e-01 |   8.3396e-03 |   4.8298e-06 |   2.0620e-08 | 1299 | 2654 |
+|  27|  -1.6983e-01 |   2.7003e+00 |   1.2035e-05 |   7.9534e-06 | 1399 | 2890 |
+|  28|  -1.7000e-01 |   1.2585e-02 |   4.6184e-06 |   2.4394e-08 | 1499 | 3121 |
+|  29|  -1.7014e-01 |   5.6875e-03 |   2.3198e-06 |   2.1735e-08 | 1599 | 3379 |
+|  30|  -1.7026e-01 |   7.3301e-01 |   1.6957e-06 |   2.3828e-07 | 1699 | 3631 |
+|  31|  -1.7040e-01 |   1.2539e-02 |   1.7906e-04 |   1.0137e-08 | 1799 | 3881 |
+|  32|  -1.7053e-01 |   7.4081e-03 |   9.2802e-07 |   1.8921e-08 | 1899 | 4139 |
+|  33|  -1.7065e-01 |   1.3577e+00 |   2.5508e-05 |   1.4479e-06 | 1999 | 4396 |
+|  34|  -1.7075e-01 |   3.3038e-03 |   2.8123e-06 |   1.9628e-08 | 2099 | 4647 |
+|  35|  -1.7085e-01 |   1.2780e-02 |   1.7080e-05 |   1.6965e-08 | 2199 | 4898 |
+|  36|  -1.7095e-01 |   3.2396e-03 |   2.6168e-05 |   1.7993e-08 | 2299 | 5179 |
+|  37|  -1.7104e-01 |   1.0980e+00 |   1.7532e-05 |   1.4555e-06 | 2399 | 5454 |
+|  38|  -1.7112e-01 |   2.6912e-01 |   1.9029e-05 |   1.3063e-07 | 2499 | 5716 |
+|  39|  -1.7120e-01 |   3.6672e-01 |   1.4431e-05 |   1.3797e-07 | 2599 | 5980 |
+|  40|  -1.7127e-01 |   8.5799e-01 |   1.6968e-04 |   8.2878e-07 | 2699 | 6244 |
+|  41|  -1.7135e-01 |   6.0840e-02 |   7.3482e-05 |   2.4893e-09 | 2799 | 6517 |
+|  42|  -1.7140e-01 |   3.3861e-03 |   1.9637e-05 |   1.3209e-08 | 2899 | 6789 |
+|  43|  -1.7147e-01 |   2.8075e-02 |   1.8042e-05 |   1.3505e-08 | 2999 | 7032 |
+|  44|  -1.7153e-01 |   3.1687e-01 |   4.8132e-05 |   5.2202e-08 | 3099 | 7284 |
+|  45|  -1.7159e-01 |   1.3416e-01 |   7.1334e-06 |   1.0419e-08 | 3199 | 7554 |
+|  46|  -1.7164e-01 |   4.1558e-01 |   6.5495e-06 |   1.3526e-07 | 3299 | 7818 |
+|  47|  -1.7168e-01 |   9.2790e-01 |   1.7350e-05 |   3.9470e-07 | 3399 | 8074 |
+|  48|  -1.7173e-01 |   8.7822e-01 |   6.8005e-06 |   4.4707e-07 | 3499 | 8361 |
+|  49|  -1.7177e-01 |   2.2685e-02 |   3.8666e-06 |   1.8325e-08 | 3599 | 8624 |
+|  50|  -1.7180e-01 |   4.7753e-03 |   1.0800e-05 |   1.4149e-08 | 3699 | 8890 |
+|  51|  -1.7184e-01 |   1.0723e+00 |   4.3616e-06 |   1.1352e-06 | 3799 | 9114 |
+|  52|  -1.7187e-01 |   1.0760e+00 |   2.9532e-06 |   4.7465e-07 | 3899 | 9368 |
+|  53|  -1.7191e-01 |   3.4701e-03 |   3.7661e-06 |   1.8088e-08 | 3999 | 9639 |
+|  54|  -1.7194e-01 |   1.4652e+00 |   5.1653e-06 |   1.5818e-06 | 4099 | 9897 |
+|  55|  -1.7197e-01 |   1.4560e-03 |   3.7794e-06 |   1.6968e-08 | 4199 | 10141 |
+|  56|  -1.7200e-01 |   1.8732e-01 |   1.2559e-06 |   4.4563e-08 | 4299 | 10407 |
+|  57|  -1.7203e-01 |   1.3604e-03 |   2.6766e-06 |   1.8917e-08 | 4399 | 10677 |
+|  58|  -1.7206e-01 |   3.6078e-01 |   1.3488e-06 |   5.4765e-08 | 4499 | 10953 |
+|  59|  -1.7209e-01 |   1.2010e+00 |   4.9908e-06 |   1.1458e-06 | 4599 | 11223 |
+|  60|  -1.7209e-01 |   9.5298e-04 |   3.8746e-06 |   1.0560e-08 | 4608 | 11242 |
+|  61|  -1.7211e-01 |   1.8132e-03 |   1.1551e-05 |   1.4507e-08 | 4708 | 11514 |
+|  62|  -1.7214e-01 |   1.4270e-03 |   6.7630e-06 |   1.6321e-08 | 4808 | 11779 |
+|  63|  -1.7216e-01 |   1.2283e-03 |   1.6964e-06 |   1.6934e-08 | 4908 | 12041 |
+|  64|  -1.7218e-01 |   3.9724e-01 |   7.4724e-06 |   9.3381e-08 | 5008 | 12308 |
+|  65|  -1.7220e-01 |   2.6049e-03 |   3.0161e-06 |   1.6415e-08 | 5108 | 12573 |
+|  66|  -1.7222e-01 |   7.2821e-03 |   1.0884e-05 |   1.4821e-08 | 5208 | 12849 |
+|  67|  -1.7223e-01 |   8.8189e-01 |   4.2993e-06 |   7.9654e-07 | 5308 | 13097 |
+|  68|  -1.7225e-01 |   5.7864e-01 |   1.9969e-05 |   1.9956e-07 | 5408 | 13351 |
+|  69|  -1.7226e-01 |   1.3440e-03 |   2.4690e-06 |   1.2361e-08 | 5508 | 13595 |
+|  70|  -1.7227e-01 |   2.3444e-01 |   4.2081e-06 |   1.2231e-09 | 5608 | 13833 |
+|  71|  -1.7228e-01 |   5.8596e-01 |   2.0097e-06 |   2.7471e-07 | 5708 | 14064 |
+|  72|  -1.7229e-01 |   3.5057e-03 |   2.3444e-06 |   7.0338e-09 | 5808 | 14351 |
+|  73|  -1.7230e-01 |   1.1388e-03 |   1.1575e-06 |   6.3809e-09 | 5908 | 14674 |
+|  74|  -1.7231e-01 |   3.7875e-01 |   2.5988e-06 |   2.6669e-07 | 6008 | 14995 |
+|  75|  -1.7231e-01 |   3.5141e-01 |   2.8474e-06 |   2.9102e-07 | 6108 | 15325 |
+|  76|  -1.7232e-01 |   8.9138e-02 |   7.1491e-06 |   1.0651e-08 | 6208 | 15599 |
+|  77|  -1.7233e-01 |   6.3597e-03 |   3.7984e-07 |   6.1002e-09 | 6308 | 15839 |
+
+
+********************************************************************************
+F(x_77) =                        -1.7232761360440857E-01
+f(x_77) =                        -1.7232760551544635E-01
+||f(x_77) -  F(x_77)|| =          8.0889622222635182E-09
+||f(x_77) -  f(x_76)|| =          8.0321805336902585E-06
+Feasibility (LI)                  2.8022870344043171E-16
+Slackness (LI)                    2.6663214687402562E-21
+Feasibility (BMI)                 3.7984374999999999E-07
+Slackness   (BMI)                 6.1002354248725077E-09
+||grad_x(L(x,U))||                1.2815898906912006E-02
+lambda_min(hess_x(L(x,U)))  >=   -0.0000000000000000E+00
+Outer Iterations                                      77
+Inner Iterations                                    6308
+Linesearch steps                                   15839
+Start time                      Thu Sep 28 11:23:04 2023
+End time                        Thu Sep 28 11:23:29 2023
+Real time                              0 h  0 min 25 sec
+Process time (total)                          24.159 sec
+Unconstrained minimization                    24.024 sec
+      - feval                                  0.176 sec
+      - feval (sparse chol)                        0 sec
+      - geval                                  0.516 sec
+      - heval                                 17.844 sec
+      - heval (sparse chol)                        0 sec
+      - dense chol                              2.25 sec
+      - sparse chol                                0 sec
+      - eigenvalue                             3.217 sec
+Multiplier update                                  0 sec
+Penalty update                                 0.002 sec
+Feasibility check                              0.002 sec
+      - dense chol                             0.002 sec
+      - sparse chol                                0 sec
+********************************************************************************
+
+
+
+ans =
+
+    'Successfully solved (PENBMI-PENOPT)'
+
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   ID|                    Constraint|   Primal residual|   Dual residual|         Tag|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   #1|   SOS constraint (polynomial)|        2.6645e-14|             NaN|       V > 0|
+|   #2|   SOS constraint (polynomial)|        2.3141e-06|             NaN|   -Vdot < 0|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| A primal-dual optimal solution would show non-negative residuals.                   |
+| In practice, many solvers converge to slightly infeasible                           |
+| solutions, which may cause some residuals to be negative.                           |
+| It is up to the user to judge the importance and impact of                          |
+| slightly negative residuals (i.e. infeasibilities)                                  |
+| https://yalmip.github.io/command/check/                                             |
+| https://yalmip.github.io/faq/solutionviolated/                                      |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+Total error: 0.01
+Computation Time: 24.20
+f_fh(xi) = [2.19486049613*xi1^2*xi2^2 - 2.07292993018*xi2 - 1.50164232325*xi1 - 1.00631359802*xi1^2*xi2^3 - 4.19372412471*xi1^3*xi2^2 + 1.18359188118*xi1^2*xi2^4 + 4.51983739666*xi1^3*xi2^3 - 0.937521813584*xi1^4*xi2^2 + 1.63424799687*xi1*xi2 + 5.35261324013*xi1*xi2^2 + 3.24918443318*xi1^2*xi2 - 2.58874957146*xi1*xi2^3 - 2.53335189572*xi1^3*xi2 - 4.10268218182*xi1*xi2^4 - 1.13103253081*xi1^4*xi2 + 1.50502595664*xi1*xi2^5 + 1.74666752911*xi1^5*xi2 - 0.559993697329*xi1^2 + 4.42822674018*xi1^3 + 0.974809293896*xi2^2 + 0.770539501061*xi1^4 + 2.68035760793*xi2^3 - 3.31198082234*xi1^5 - 3.22579043256*xi2^4 - 0.467144990735*xi1^6 - 1.18125838877*xi2^5 + 2.82627891375*xi2^6]
+           [0.367343244241*xi1 - 0.858838186115*xi2 + 1.18543139629*xi1^2*xi2^2 - 0.673402596063*xi1^2*xi2^3 - 2.28519447889*xi1^3*xi2^2 + 0.07187946455459999*xi1^2*xi2^4 - 0.812752596433*xi1^3*xi2^3 - 2.91314261418*xi1^4*xi2^2 - 0.781406255275*xi1*xi2 + 0.809391012994*xi1*xi2^2 + 0.453085462654*xi1^2*xi2 + 1.75722759435*xi1*xi2^3 - 0.931170086977*xi1^3*xi2 - 1.27555016894*xi1*xi2^4 - 0.837586549867*xi1^4*xi2 - 1.11954773284*xi1*xi2^5 + 1.18425639701*xi1^5*xi2 - 1.21816282109*xi1^2 + 1.40749322808*xi1^3 + 0.588621259511*xi2^2 + 2.76636611809*xi1^4 + 2.82283107128*xi2^3 - 1.73597520654*xi1^5 - 1.14553350207*xi2^4 - 2.36105309515*xi1^6 - 2.59885493006*xi2^5 + 0.202189345287*xi2^6]
+V_fh(xi) = [13.7805620969*xi1^2*xi2^2 - 0.000000000000000254533017553*xi2 - 0.000000000000000542056606428*xi1 - 0.127785818167*xi1*xi2 - 2.72276848219*xi1*xi2^2 + 8.49662360172*xi1^2*xi2 - 4.38574305373*xi1*xi2^3 - 7.19421815445*xi1^3*xi2 + 6.77710755585*xi1^2 - 6.89289485697*xi1^3 + 23.7725669442*xi2^2 + 9.090288681120001*xi1^4 + 24.1471319733*xi2^3 + 15.3263935453*xi2^4]
+dVdx_fh(xi) = [13.5542151117*xi1 - 0.127785818167*xi2 + 16.9932472034*xi1*xi2 + 27.5611241938*xi1*xi2^2 - 21.5826544633*xi1^2*xi2 - 20.6786845709*xi1^2 + 36.3611547245*xi1^3 - 2.72276848219*xi2^2 - 4.38574305373*xi2^3 - 0.000000000000000542056606428]
+              [47.5451338884*xi2 - 0.127785818167*xi1 - 5.44553696438*xi1*xi2 - 13.1572291612*xi1*xi2^2 + 27.5611241938*xi1^2*xi2 + 8.49662360172*xi1^2 - 7.19421815445*xi1^3 + 72.4413959199*xi2^2 + 61.3055741812*xi2^3 - 0.000000000000000254533017553]
+B_fh(xi) = [0.0]
+dBdx_fh(xi) = [0]
+              [0]
+[DEBUG] Validation of SOS constraints:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Idx| Min eigval of Q| Primal residual|  Relative fact.|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   1|         3.14571|     2.66454e-14|     8.47038e-15|  All eigvals of Q: [3.14570951292909;6.59377222701543;10.5074862323282;18.6755122105935;32.6678683016171]
+|   2|     9.10563e-06|     2.31405e-06|        0.254134|  All eigvals of Q: [9.10563322264628e-06;1.10623289391154e-05;2.74767196031346e-05;4.61244806427692e-05;5.28301271309426e-05;6.08699421850263e-05;0.0001070767096035;4.74389483869652;33.8400217183918;45.2212435483702;89.5787598445831;214.904874427447;267.43802210663;469.074043914345]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[DEBUG_END]

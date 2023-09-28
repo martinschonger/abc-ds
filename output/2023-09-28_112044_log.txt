@@ -1,0 +1,148 @@
+[Warning: The Data and data fields of LASA datasets may not be aligned.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RefData/loadLasa', 'C:\Users\martin\dev\ds\RefData.m', 96)" style="font-weight:bold">RefData/loadLasa</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\RefData.m',96,0)">line 96</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_experiment', 'C:\Users\martin\dev\ds\run_experiment.m', 22)" style="font-weight:bold">run_experiment</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\run_experiment.m',22,0)">line 22</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main2', 'C:\Users\martin\dev\ds\main2.m', 175)" style="font-weight:bold">main2</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\main2.m',175,0)">line 175</a>)] 
+-------------------------------------------------------------------------
+YALMIP SOS module started...
+-------------------------------------------------------------------------
+Detected 4 parametric variables and 2 independent variables.
+Detected 0 linear inequalities, 0 equality constraints and 0 LMIs.
+Using image representation (options.sos.model=2). Nonlinear parameterization found
+Initially 3 monomials in R^2
+Newton polytope (0 LPs).........Keeping 2 monomials (0.015625sec)
+Finding symmetries..............Found 1 symmetry  (0sec)
+Partitioning using symmetry.....2x2(1) 
+ 
+
+MOSEK Version 10.0.46 (Build date: 2023-5-23 19:41:05)
+Copyright (c) MOSEK ApS, Denmark WWW: mosek.com
+Platform: Windows/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : minimize        
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 5               
+  Affine conic cons.     : 0               
+  Disjunctive cons.      : 0               
+  Cones                  : 1               
+  Scalar variables       : 6               
+  Matrix variables       : 1               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.00    
+Problem
+  Name                   :                 
+  Objective sense        : minimize        
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 5               
+  Affine conic cons.     : 0               
+  Disjunctive cons.      : 0               
+  Cones                  : 1               
+  Scalar variables       : 6               
+  Matrix variables       : 1               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 12              
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 5
+Optimizer  - Cones                  : 2
+Optimizer  - Scalar variables       : 9                 conic                  : 9               
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 15                after factor           : 15              
+Factor     - dense dim.             : 0                 flops                  : 1.43e+02        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   8.2e-01  1.1e+00  1.9e+00  0.00e+00   8.601419235e-01   0.000000000e+00   1.0e+00  0.00  
+1   5.6e-02  7.8e-02  1.5e-02  3.76e-01   5.530785938e-02   -8.072372041e-02  6.9e-02  0.00  
+2   7.7e-03  1.1e-02  7.5e-04  1.02e+00   -5.118561465e-02  -6.941688034e-02  9.4e-03  0.00  
+3   1.6e-03  2.2e-03  9.7e-05  1.05e+00   -5.718664397e-02  -6.054781757e-02  2.0e-03  0.00  
+4   4.2e-04  5.8e-04  1.5e-05  1.03e+00   -5.791686610e-02  -5.869770067e-02  5.1e-04  0.00  
+5   4.7e-05  6.6e-05  7.5e-07  1.01e+00   -5.876980562e-02  -5.883687612e-02  5.8e-05  0.00  
+6   4.6e-06  6.4e-06  2.3e-08  1.00e+00   -5.882622663e-02  -5.883260636e-02  5.6e-06  0.00  
+7   4.9e-08  6.9e-08  2.6e-11  1.00e+00   -5.883426061e-02  -5.883432836e-02  6.0e-08  0.00  
+8   3.1e-09  4.3e-09  4.0e-13  1.00e+00   -5.883432428e-02  -5.883432850e-02  3.8e-09  0.00  
+Optimizer terminated. Time: 0.00    
+
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: -5.8834324277e-02   nrm: 1e+00    Viol.  con: 3e-09    var: 0e+00    barvar: 0e+00    cones: 0e+00  
+  Dual.    obj: -5.8834328497e-02   nrm: 1e+00    Viol.  con: 0e+00    var: 5e-09    barvar: 3e-09    cones: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 0.00    
+    Interior-point          - iterations : 8         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+
+ans =
+
+    'Successfully solved (MOSEK-SDP)'
+
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   ID|                    Constraint|   Primal residual|   Dual residual|         Tag|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   #1|   SOS constraint (polynomial)|        2.2204e-16|             NaN|   -Vdot < 0|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| A primal-dual optimal solution would show non-negative residuals.                   |
+| In practice, many solvers converge to slightly infeasible                           |
+| solutions, which may cause some residuals to be negative.                           |
+| It is up to the user to judge the importance and impact of                          |
+| slightly negative residuals (i.e. infeasibilities)                                  |
+| https://yalmip.github.io/command/check/                                             |
+| https://yalmip.github.io/faq/solutionviolated/                                      |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+Total error: 0.06
+Computation Time: 0.02
+f_fh(xi) = [0.338776167686*xi2 - 0.169561027133*xi1]
+           [- 0.892698889218*xi1 - 0.706816681071*xi2]
+V_fh(xi) = [xi1^2 + xi2^2]
+dVdx_fh(xi) = [2.0*xi1]
+              [2.0*xi2]
+B_fh(xi) = [0.0]
+dBdx_fh(xi) = [0]
+              [0]
+[DEBUG] Validation of SOS constraints:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Idx| Min eigval of Q| Primal residual|  Relative fact.|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|   1|        0.103708|     2.22045e-16|     2.14105e-15|  All eigvals of Q: [0.103708077392444;1.64704733901566]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[DEBUG_END]
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdpvar/subsasgn')" style="font-weight:bold">indexing</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fvb', 'C:\Users\martin\dev\ds\fvb.m', 98)" style="font-weight:bold">fvb</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\fvb.m',98,0)">line 98</a>)
+    xi_dot(:, t) = replace(f, xi, rd.Data(1:M, t));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_experiment', 'C:\Users\martin\dev\ds\run_experiment.m', 206)" style="font-weight:bold">run_experiment</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\run_experiment.m',206,0)">line 206</a>)
+[fhat, V, dVdx, B, dBdx, debug_output, fc, Vc, Bc] = fvb(rd, restrict_to_convex, xi, initial_set, unsafe_set, options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main2', 'C:\Users\martin\dev\ds\main2.m', 175)" style="font-weight:bold">main2</a> (<a href="matlab: opentoline('C:\Users\martin\dev\ds\main2.m',175,0)">line 175</a>)
+        [result, options] = run_experiment(global_options, options, experiments{curr_exp_idx}.pre);
+} 

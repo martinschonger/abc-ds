@@ -1,0 +1,3 @@
+[submodule "datasets/lasahandwritingdataset"]
+	path = datasets/lasahandwritingdataset
+	url = https://bitbucket.org/khansari/lasahandwritingdataset

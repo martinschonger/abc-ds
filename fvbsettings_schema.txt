@@ -1,0 +1,16 @@
+seed
+enable_barrier
+epsilon
+init_Bc_var
+constraint_version
+enable_regularization
+deg_f
+deg_V
+deg_B
+deg_B_slack
+enable_extra_constraint
+regularization_factor
+dataset
+dataset_opts
+sdpoptions
+sdpoptions_penbmi

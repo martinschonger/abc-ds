@@ -1,0 +1,9 @@
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-23-52.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-24-50.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-25-51.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-26-49.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-34-13.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-35-11.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-36-11.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-37-10.csv
+datasets/robot_recordings/box/reference_trajectories/Recording_2023-09-21_23-38-10.csv
