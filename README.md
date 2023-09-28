@@ -1,4 +1,4 @@
-# ABC-DS
+# ABC-DS: obstacle Avoidance with Barrier-Certified polynomial Dynamical Systems
 
 Accompanying code for the paper **Learning barrier-certified polynomial dynamical systems for obstacle avoidance with robots** by
 Martin Schonger<sup>1*</sup>,
