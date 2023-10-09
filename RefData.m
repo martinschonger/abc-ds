@@ -79,6 +79,9 @@ classdef RefData < handle
         function loadLasa(obj, idx)
             sub_sample = 10;  % take 100 samples per trajectory
             nb_trajectories = 7;  % take all 7 trajectories
+            if ~exist('load_LASA_dataset_shape_DS')
+                addpath('./datasets');
+            end
             [Data, Data_sh, att, x0_all, data, dt] = load_LASA_dataset_shape_DS(idx, sub_sample, nb_trajectories);
             obj.Data = Data_sh;
             obj.M = size(obj.Data, 1) / 2;
