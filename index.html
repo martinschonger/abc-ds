@@ -65,7 +65,7 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/pdf/TODO"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -73,17 +73,7 @@
                   </span>
                   <span>Paper</span>
                 </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=TODO"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/martinschonger/abc-ds"
@@ -94,8 +84,17 @@
                   <span>Code</span>
                   </a>
               </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=iei-hVL-pfc"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
             </div>
-
           </div>
         </div>
       </div>
@@ -111,7 +110,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius odio sit amet lobortis pharetra. Nulla dapibus, neque vitae pellentesque lobortis, nulla urna mattis libero, at porta ante urna ac turpis. Duis et turpis sem. Etiam dignissim sapien purus, vitae suscipit odio tincidunt a. Maecenas in nibh ut augue scelerisque iaculis a ut sapien.
+            Established techniques that enable robots to learn from demonstrations are based on learning a stable dynamical system (DS).
+            To increase the robots' resilience to perturbations during tasks that involve static obstacle avoidance, we propose incorporating barrier certificates into an optimization problem to learn a stable and barrier-certified DS.
+            Such optimization problem can be very complex or extremely conservative when the traditional linear parameter-varying formulation is used. Thus, different from previous approaches in the literature, we propose to use polynomial representations for DSs, which yields an optimization problem that can be tackled by sum-of-squares techniques.
+            Finally, our approach can handle obstacle shapes that fall outside the scope of assumptions typically found in the literature concerning obstacle avoidance within the DS learning framework.
           </p>
         </div>
       </div>
@@ -123,7 +125,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/TODO?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/iei-hVL-pfc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -131,51 +133,14 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- TODO1. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">TODO1</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius odio sit amet lobortis pharetra. Nulla dapibus, neque vitae pellentesque lobortis, nulla urna mattis libero, at porta ante urna ac turpis. Duis et turpis sem. Etiam dignissim sapien purus, vitae suscipit odio tincidunt a. Maecenas in nibh ut augue scelerisque iaculis a ut sapien.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/TODO1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ TODO1. -->
-
-      <!-- TODO2. -->
-      <div class="column">
-        <h2 class="title is-3">TODO2</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius odio sit amet lobortis pharetra. Nulla dapibus, neque vitae pellentesque lobortis, nulla urna mattis libero, at porta ante urna ac turpis. Duis et turpis sem. Etiam dignissim sapien purus, vitae suscipit odio tincidunt a. Maecenas in nibh ut augue scelerisque iaculis a ut sapien..
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/TODO2.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ TODO2. -->
-  </div>
-</section>
-
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@conference{TODO}</code></pre>
+    <pre><code>@inproceedings{schonger2024icra,
+  author={Schonger, Martin and Kussaba, Hugo T. M. and Chen, Lingyun and Figueredo, Luis and Swikir, Abdalla and Billard, Aude and Haddadin, Sami},
+  title={Learning Barrier-Certified Polynomial Dynamical Systems for Obstacle Avoidance with Robots},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024}}</code></pre>
   </div>
 </section>
 
