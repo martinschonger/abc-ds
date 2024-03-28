@@ -1,13 +1,13 @@
 # ABC-DS: obstacle Avoidance with Barrier-Certified polynomial Dynamical Systems
 
-Accompanying code for the paper **Learning barrier-certified polynomial dynamical systems for obstacle avoidance with robots** by
+Accompanying code for the paper **Learning Barrier-Certified Polynomial Dynamical Systems for Obstacle Avoidance with Robots** by
 Martin Schonger<sup>1*</sup>,
 Hugo T. M. Kussaba<sup>1*</sup>,
 Lingyun Chen<sup>1</sup>,
 Luis Figueredo<sup>2</sup>,
 Abdalla Swikir<sup>1</sup>, 
 Aude Billard<sup>3</sup>,
-and Sami Haddadin<sup>1</sup>, which has been submitted to ICRA 2024 and is currently under review.
+and Sami Haddadin<sup>1</sup>, which has been accepted for presentation at ICRA 2024.
 
 <sup>1</sup>Munich Institute of Robotics and Machine Intelligence (MIRMI), Technical University of Munich (TUM), Germany. Abdalla Swikir is also with the Department of Electrical and Electronic Engineering, Omar Al-Mukhtar University (OMU), Albaida, Libya.\
 <sup>2</sup>School of Computer Science, University of Nottingham, UK. Luis Figueredo is also an Associated Fellow at the MIRMI, TUM.\
