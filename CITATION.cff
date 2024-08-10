@@ -4,12 +4,12 @@ title: >-
   polynomial Dynamical Systems
 message: >-
   If you use this work, please cite the associated paper
-  below
+  below.
 type: software
 authors:
-  - email: martin.schonger@tum.de
+  - given-names: Martin
     family-names: Schonger
-    given-names: Martin
+    email: martin.schonger@tum.de
     affiliation: Technical University of Munich
     orcid: 'https://orcid.org/0000-0002-2169-4131'
   - given-names: Hugo Tadashi
@@ -21,7 +21,7 @@ authors:
     family-names: Chen
     email: lingyun.chen@tum.de
     affiliation: Technical University of Munich
-  - given-names: 'Luis '
+  - given-names: Luis
     family-names: Figueredo
     email: luis.figueredo@nottingham.ac.uk
     affiliation: University of Nottingham
@@ -45,9 +45,9 @@ license: GPL-3.0
 preferred-citation:
   type: conference-paper	
   authors:
-    - email: martin.schonger@tum.de
+    - given-names: Martin
       family-names: Schonger
-      given-names: Martin
+      email: martin.schonger@tum.de
       affiliation: Technical University of Munich
       orcid: 'https://orcid.org/0000-0002-2169-4131'
     - given-names: Hugo Tadashi
@@ -59,7 +59,7 @@ preferred-citation:
       family-names: Chen
       email: lingyun.chen@tum.de
       affiliation: Technical University of Munich
-    - given-names: 'Luis '
+    - given-names: Luis
       family-names: Figueredo
       email: luis.figueredo@nottingham.ac.uk
       affiliation: University of Nottingham
