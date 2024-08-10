@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+title: >-
+  ABC-DS: obstacle Avoidance with Barrier-Certified
+  polynomial Dynamical Systems
+message: >-
+  If you use this work, please cite the associated paper
+  below
+type: software
+authors:
+  - email: martin.schonger@tum.de
+    family-names: Schonger
+    given-names: Martin
+    affiliation: Technical University of Munich
+    orcid: 'https://orcid.org/0000-0002-2169-4131'
+  - given-names: Hugo Tadashi
+    family-names: Kussaba
+    email: hugo.kussaba@tum.de
+    affiliation: Technical University of Munich
+    orcid: 'https://orcid.org/0000-0002-7336-1443'
+  - given-names: Lingyun
+    family-names: Chen
+    email: lingyun.chen@tum.de
+    affiliation: Technical University of Munich
+  - given-names: 'Luis '
+    family-names: Figueredo
+    email: luis.figueredo@nottingham.ac.uk
+    affiliation: University of Nottingham
+    orcid: 'https://orcid.org/0000-0002-0759-3000'
+  - given-names: Abdalla
+    family-names: Swikir
+    email: abdalla.swikir@tum.de
+    affiliation: Technical University of Munich
+    orcid: 'https://orcid.org/0000-0002-4154-7446'
+  - given-names: Aude
+    family-names: Billard
+    email: aude.billard@epfl.ch
+    affiliation: École Polytechnique Fédérale de Lausanne
+    orcid: 'https://orcid.org/0000-0002-7076-8010'
+  - given-names: Sami
+    family-names: Haddadin
+    email: sami.haddadin@tum.de
+    affiliation: Technical University of Munich
+    orcid: 'https://orcid.org/0000-0001-7696-4955'
+license: GPL-3.0
+preferred-citation:
+  type: conference-paper	
+  authors:
+    - email: martin.schonger@tum.de
+      family-names: Schonger
+      given-names: Martin
+      affiliation: Technical University of Munich
+      orcid: 'https://orcid.org/0000-0002-2169-4131'
+    - given-names: Hugo Tadashi
+      family-names: Kussaba
+      email: hugo.kussaba@tum.de
+      affiliation: Technical University of Munich
+      orcid: 'https://orcid.org/0000-0002-7336-1443'
+    - given-names: Lingyun
+      family-names: Chen
+      email: lingyun.chen@tum.de
+      affiliation: Technical University of Munich
+    - given-names: 'Luis '
+      family-names: Figueredo
+      email: luis.figueredo@nottingham.ac.uk
+      affiliation: University of Nottingham
+      orcid: 'https://orcid.org/0000-0002-0759-3000'
+    - given-names: Abdalla
+      family-names: Swikir
+      email: abdalla.swikir@tum.de
+      affiliation: Technical University of Munich
+      orcid: 'https://orcid.org/0000-0002-4154-7446'
+    - given-names: Aude
+      family-names: Billard
+      email: aude.billard@epfl.ch
+      affiliation: École Polytechnique Fédérale de Lausanne
+      orcid: 'https://orcid.org/0000-0002-7076-8010'
+    - given-names: Sami
+      family-names: Haddadin
+      email: sami.haddadin@tum.de
+      affiliation: Technical University of Munich
+      orcid: 'https://orcid.org/0000-0001-7696-4955'
+  doi: "10.1109/ICRA57147.2024.10610828"
+  title: "Learning Barrier-Certified Polynomial Dynamical Systems for Obstacle Avoidance with Robots"
+  year: 2024
+  collection-title: "Proceedings of the 2024 IEEE International Conference on Robotics and Automation"
+  start: 17201
+  end: 17207
